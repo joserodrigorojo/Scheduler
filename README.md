@@ -1,1 +1,1 @@
-# Scheduler Backend - Codeigniter
+# Scheduler - CodeIgniter
