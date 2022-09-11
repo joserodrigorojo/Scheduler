@@ -8,7 +8,6 @@ class Event extends BaseController
     public function index(){
         $model = new EventModel();
         $events = $model->getAllEvents();
-        $events = array_filter($events);
         for ($i=0; $i < count($events); $i++) { 
             $events[$i] = array_filter($events[$i]);
         }
